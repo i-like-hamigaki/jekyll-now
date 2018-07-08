@@ -297,6 +297,20 @@ width: 100% !important;
 height: 100% !important;
 }
 
+#page-top {
+    font-size: 0;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    opacity: 0;
+}
+#page-top.fade-in {
+    color: #000;
+    font-size: 60px;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
