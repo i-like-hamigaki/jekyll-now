@@ -1,7 +1,7 @@
----
-layout: page
-title: About
 
 ---
-
+layout: default
+tile: test
+---
 test
+page about
