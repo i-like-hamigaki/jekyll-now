@@ -8,9 +8,7 @@ layout: default
 
       <h1>test</h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+about me
 
 
     </article>
